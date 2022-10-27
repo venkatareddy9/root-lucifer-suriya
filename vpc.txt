@@ -1,0 +1,57 @@
+  
+                            VPC
+
+ 1}Virtual private clouds it is  used to creat own cloud 
+
+ 2)What is a VPC?
+
+A virtual private cloud (VPC) is a private cloud computing environment contained within a public cloud. Essentially, a VPC provisions logically isolated sections of a public cloud in order to provide a virtual private environment.
+3)internet gate way used to creat internet gateway to connect form public networks or it is used to make available your resources to public
+4)public subnet it is used to create resources available to public 
+5) it used to creat resources to make it private
+6)nat used to communicate  public and private subnets
+7)peering it is used to creat to establish between 2 networks (private clouds)
+
+
+
+          creat instances in vpc 
+
+to creat launch an instance 
+
+use name 
+
+choose Ami
+
+choose instance type
+
+choose key pair
+
+edit network setting
+choose vpc
+subnet to connect with (public and private)
+auto assign public ip (enable or disable)
+choose firewall ( creat or existing )
+
+
+
+  sudo -i
+cat>index.html
+copy html txt
+ ls -l
+ chmod 400 (key name).pem     
+   ssh -i "webserver1.pem" ec2-user@10.0.129.87
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
